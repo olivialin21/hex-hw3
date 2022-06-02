@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* written by olivialin21 */
+/* all */
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 16px;
+  background-color: #EFE9E7;
+}
+a{
+  text-decoration: none;
+}
+.width-limit{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* nav */
+.nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: rgba(0,0,0,0.75);
+}
+.nav .width-limit{
+  display: flex;
+  align-items: center;
+  padding: 0 42px;
+}
+.nav a{
+  color: #fff;
+  transition: all 0.3s;
+}
+.nav a:hover{
+  color: #ffe071;
+  transform: translateY(-4px);
+}
+.nav h1 a{
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 56px;
+}
+.nav-list{
+  display: flex;
+  margin-left: auto;
+}
+.nav-list li{
+  position: relative;
+  transition: all 0.3s;
+}
+.nav-list a{
+  display: block;
+  line-height: 56px;
+  padding: 0 16px;
+}
+.nav-sublist{
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+}
+.nav-sublist a{
+  line-height: 44px;
+}
+
+/* header */
+.header{
+  width: 100%;
+  height: 420px;
+  background-color: #000;
+}
+.header .width-limit{
+  height: 100%;
+  background-image: url(../img/header_desktop.png);
+  background-position: center;
+  background-size: cover;
+}
+.slogan{
+  width: 460px;
+  height: 152px;
+  position: absolute;
+  z-index: 9;
+  top: 123px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0,0,0,0.35);
+}
+.slogan h1{
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 48px;
+}
+.slogan p{
+  line-height: 21px;
+}
+
+/* footer */
+.footer{
+  min-height: 200px;
+  padding: 18px 42px;
+}
+.footer .width-limit{
+  display: flex;
+}
+.footer-block{
+  max-width: 299px;
+  margin-right: 21px;
+  line-height: 21px;
+  color: #3D1101;
+}
+.footer-block a{
+  font-size: 36px;
+}
+.footer-block ul{
+  list-style-position: inside;
+  list-style-type: disc;
+}
+.footer-block h2{
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 32px;
+}
+.footer-block-3{
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+  font-size: 0;
+}
+.footer-block-3 h1{
+  font-size: 49px;
+  line-height: 49px;
+  margin-bottom: 22px;
+}
+.footer-block-3 h1 a{
+  display: inline-block;
+  font-size: 49px;
+  line-height: 49px;
+  font-weight: bold;
+  color: #3D1101;
+  transition: all 0.3s;
+}
+.footer-block-3 h1 a:hover{
+  transform: translateY(-4px);
+}
+.footer .fa{
+  transition: all 0.3s;
+}
+.footer .fa:hover{
+  transform: translateY(-4px);
+}
+.fa-google-plus-square{
+  color: #DB4437;
+  margin-right: 12px;
+}
+.fa-google-plus-square:hover{
+  color: #af2115;
+}
+.fa-twitter-square{
+  color: #41ABE1;
+  margin-right: 12px;
+}
+.fa-twitter-square:hover{
+  color: #137cb0;
+}
+.fa-facebook-square{
+  color: #3A5795;
+}
+.fa-facebook-square:hover{
+  color: #1b356f;
+}
