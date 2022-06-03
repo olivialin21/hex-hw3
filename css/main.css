@@ -156,6 +156,53 @@ a{
   line-height: 21px;
 }
 
+/* form */
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form label{
+  margin-bottom: 3px;
+  text-align: left;
+  line-height: 21px;
+}
+.form-input{
+  position: relative;
+}
+.form-input input{
+  width: 100%;
+  height: 32px;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+}
+.form-input i{
+  position: absolute;
+  left: 10px;
+  font-size: 15px;
+  line-height: 32px;
+  color: rgba(61,17,1,0.5);
+}
+.form-email{
+  margin-bottom: 15px;
+}
+.form-ps{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.form-ps a{
+  font-size: 14px;
+  line-height: 20px;
+  color: #FF5E45;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form-ps a:hover{
+  color: #c25215;
+}
+
 /* footer */
 .footer{
   min-height: 200px;
@@ -202,13 +249,10 @@ a{
   transition: all 0.3s;
 }
 .footer-block-3 h1 a:hover{
-  transform: translateY(-4px);
+  color: #6a3826;
 }
 .footer .fa{
   transition: all 0.3s;
-}
-.footer .fa:hover{
-  transform: translateY(-4px);
 }
 .fa-google-plus-square{
   color: #DB4437;

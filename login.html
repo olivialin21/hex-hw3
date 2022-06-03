@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>六角實習 作業三</title>
+  <link rel="shortcut icon" href="./img/logo-s.png"/>
+  <link rel="apple-touch-icon" href="./img/logo-s.png"/>
+  <meta name='description' content="六角實習 作業三 RWD" />
+
+  <meta property="og:title" content="六角實習 作業三" />
+  <meta property="og:description" content="RWD">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="FB上的網址" />
+  <meta property="og:image" content="" />
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="width-limit">
+      <h1>
+        <a href="index.html">六角西餐廳</a>
+      </h1>
+      <ul class="nav-list">
+        <li>
+          <a id="nav-index" href="index.html">首頁 <span class="fa fa-angle-down"></span></a>
+          <ul class="nav-sublist">
+            <li>
+              <a href="index.html#feature">特色</a>
+            </li>
+            <li>
+              <a href="index.html#chef">主廚</a>
+            </li>
+            <li>
+              <a href="index.html#map">地圖</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="order.html">線上訂餐</a>
+        </li>
+        <li>
+          <a href="login.html">登入</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="width-limit">
+      <div class="slogan">
+        <h1>咬一口就無法忘懷的漢堡</h1>
+        <p>
+          七夕絕對無法錯過的好滋味<br>
+          <span class="fa fa-cutlery"></span> 六角大漢堡 <span class="fa fa-cutlery"></span>
+        </p>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <div class="login">
+      <h1>六角西餐廳</h1>
+      <h2>享受美食好味道</h2>
+      <div class="login-block">
+        <h3>LOGIN</h3>
+        <form class="form" action="login.html">
+          <label for="email">Email Address*</label>
+          <div class="form-input">
+            <i class="fa fa-envelope-o"></i>
+            <input class="form-email" id="email" type="email" name="email">  
+          </div>
+          <label for="password">Password*</label>
+          <div class="form-input">
+            <i class="fa fa-lock"></i>
+            <input class="form-password" id="password" type="password" name="password">  
+          </div>
+          <div class="form-ps">
+            <a href="#">忘記密碼？</a>
+          </div>
+          <div class="login-btn">
+            <button class="login-btn-register" type="button" onclick="self.location.href='register.html'">註冊</button>
+            <button class="login-btn-login" type="submit">登入</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="width-limit">
+      <div class="footer-block">
+        <h2>關於 六角西餐廳</h2>
+        <p>Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at.</p>
+      </div>
+      <div class="footer-block">
+        <h2>聯絡方式</h2>
+        <ul>
+          <li>高雄市中正五路到底</li>
+          <li>+886 886 886</li>
+          <li>service@hexschool.com</li>
+        </ul>
+      </div>
+      <div class="footer-block footer-block-3">
+        <h1>
+          <a href="index.html">六角西餐廳</a>
+        </h1>
+        <a href="#" class="fa fa-google-plus-square"></a>
+        <a href="#" class="fa fa-twitter-square"></a>
+        <a href="#" class="fa fa-facebook-square"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
