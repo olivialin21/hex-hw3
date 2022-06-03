@@ -69,16 +69,4 @@
 }
 .register-btn button{
   width: 125px;
-  padding: 6px 28px;
-  border: none;
-  font-size: 14px;
-  line-height: 20px;
-  border-radius: 3px;
-  color: #fff;
-  background: #F56C23;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-.register-btn button:hover{
-  background: #c25215;
 }

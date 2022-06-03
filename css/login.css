@@ -49,26 +49,7 @@
 }
 .login-btn button{
   width: 100%;
-  padding: 6px 28px;
-  border: none;
-  font-size: 14px;
-  line-height: 20px;
-  color: #fff;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 .login-btn-register{
   margin-right: 20px;
-  background: rgba(0,0,0,0.35);
-  border-radius: 3px;
-}
-.login-btn-register:hover{
-  background: rgba(0,0,0,0.5);
-}
-.login-btn-login{
-  background: #F56C23;
-  border-radius: 3px;
-}
-.login-btn-login:hover{
-  background: #c25215;
 }

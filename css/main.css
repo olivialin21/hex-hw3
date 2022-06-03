@@ -175,6 +175,7 @@ a{
   padding: 10px 10px 10px 30px;
   border: 1px solid #CCCCCC;
   border-radius: 3px;
+  font-size: 16px;
   background: #FFFFFF;
   box-shadow: inset 0px 1px 0px 0px #ECECEC;
 }
@@ -201,6 +202,30 @@ a{
 }
 .form-ps a:hover{
   color: #c25215;
+}
+
+/* btn */
+.btn{
+  padding: 6px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-orange{
+  background: #F56C23;
+}
+.btn-orange:hover{
+  background: #c25215;
+}
+.btn-gray{
+  background: rgba(0,0,0,0.35);
+}
+.btn-gray:hover{
+  background: rgba(0,0,0,0.5);
 }
 
 /* footer */
