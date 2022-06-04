@@ -142,6 +142,7 @@ p.experience-comment{
 /* map */
 .map{
   background: rgba(250,250,250,0.70);
+  margin-bottom: 30px;
 }
 .map .width-limit{
   padding: 50px 42px;
@@ -209,4 +210,9 @@ p.experience-comment{
 }
 .map-btn .btn-gray{
   margin-right: 11px;
+}
+
+/* footer */
+.footer{
+  margin-bottom:30px;
 }

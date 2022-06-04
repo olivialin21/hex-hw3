@@ -1,0 +1,250 @@
+.order{
+  color: #3D1101;
+}
+.order .width-limit{
+  display: flex;
+  padding: 50px 42px 0 42px;
+}
+.order-class{
+  min-width: 220px;
+  margin-right: 20px;
+}
+.order-class div{
+  display: flex;
+  margin-bottom: 26px;
+}
+.order-class img{
+  width: 26px;
+  height: 32px;
+  margin-right: 15px;
+}
+.order-class h2{
+  font-size: 20px;
+  line-height: 32px;
+}
+.order-class li{
+  font-size: 16px;
+  line-height: 35px;
+  padding: 0 8px;
+  border-bottom: 1px solid #3D1101;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.order-class li:hover{
+  color: #fff;
+  background-color: #a0644e;
+}
+.order-class li.active{
+  color: #fff;
+  background-color: #3D1101;
+}
+
+.order-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.order-search{
+  display: flex;
+  width: 460px;
+  height: 32px;
+}
+.order-search input{
+  width: 100%;
+  padding: 0 10px;
+  border: 2px solid #3D1101;
+  font-size: 16px;
+  color: #3D1101;
+  background-color: #EFE9E7;
+}
+.order-search div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 100%;
+  font-size: 19px;
+  border: 2px solid #3D1101;
+  border-left: none;
+  color: #fff;
+  background-color: #3D1101;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.order-search div:hover{
+  background-color: #a0644e;
+}
+.order-cart{
+  display: flex;
+}
+.order-cart a{
+  line-height: 21px;
+  padding: 3px 12px;
+  color: #3D1101;
+  transition: all 0.3s;
+}
+.order-cart a:hover{
+  color: #a0644e;
+}
+.order-cart .fa{
+  position: relative;
+  padding: 3px 21px 3px 18px;
+  font-size: 29px;
+}
+.order-cart .fa::after{
+  content:'1';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -5px;
+  right: 12px;
+  border: 1px solid #EFE9E7;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  background: #FF5E45;
+}
+.order-cart .line{
+  width: 1px;
+  height: 14px;
+  margin-top: 8px;
+  background-color: #3D1101;
+}
+
+.order-blocks{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.order-block{
+  width: 220px;
+  height: 280px;
+  position: relative;
+  margin-bottom: 30px;
+  text-align: center;
+  background: #EFE9E7;
+  box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+}
+.order-label{
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  overflow: hidden;
+}
+.order-label::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  z-index: -9;
+  transform-origin: right top;
+  transform: rotate(-45deg);
+  background: #009973;
+}
+.order-label::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  z-index: -9;
+  transform-origin: right top;
+  transform: rotate(45deg);
+  background: #009973;
+}
+.order-label-text{
+  font-size: 14px;
+  line-height: 24px;
+  width: 200%;
+  position: absolute;
+  top: -50%;
+  left: 10%;
+  text-align: center;
+  transform-origin: left top;
+  transform: rotate(-315deg);
+  color: #fff;
+  background: #00CC99;
+}
+.fa-heart-o,.fa-heart{
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  z-index: 9;
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.order-img{
+  width: 100%;
+  height: 120px;
+  margin-bottom: 11px;
+  background-position: center;
+  background-size: cover;
+}
+.order-img-1{
+  background-image: url(../img/product_1_desktop.png);
+}
+.order-img-2{
+  background-image: url(../img/product_2_desktop.png);
+}
+.order-img-3{
+  background-image: url(../img/product_3_desktop.png);
+}
+.order-img-4{
+  background-image: url(../img/product_4_desktop.png);
+}
+
+.order-block h2{
+  font-size: 20px;
+  line-height: 27px;
+}
+.order-block h3{
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.order-block .line{
+  width: 91px;
+  height: 1px;
+  margin: 0 auto 20px auto;
+  background-color: #3D1101;
+}
+.order-block p{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 13px;
+}
+.order-block span{
+  font-style: italic;
+  font-weight: bold;
+}
+.order-btn{
+  display: inline-block;
+  width: calc(100% - 20px);
+  padding: 3px;
+  font-size: 16px;
+  line-height: 21px;
+  border: 2px solid #FF5E45;
+  border-radius: 3px;
+  color: #FF5E45;
+  background: #EFE9E7;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.order-btn:hover{
+  color: #fff;
+  background-color: #FF5E45;
+}
+.order-btn i{
+  margin-right: 9px;
+}
