@@ -77,4 +77,7 @@
   .register-form-terms{
     margin-bottom: 16px;
   }
+  .register-block{
+    max-width: 300px;
+  }
 }
