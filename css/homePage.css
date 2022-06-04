@@ -252,8 +252,12 @@ p.experience-comment{
   border-radius: 3px;
   font-size: 16px;
   line-height: 22px;
+  color: #3D1101;
   background: #FFFFFF;
   box-shadow: inset 0px 1px 0px 0px #ECECEC;
+}
+.map-content input:focus{
+  outline-color: #3D1101;
 }
 .map-content input[type="radio"]{
   width: 16px;
@@ -263,7 +267,7 @@ p.experience-comment{
   box-shadow: none;
 }
 .map-content input[type="radio"]:focus{
-  border: 1px solid #4A90E2;
+  accent-color: #4A90E2;
 }
 .form div{
   display: flex;
@@ -303,9 +307,4 @@ p.experience-comment{
 /* footer */
 .footer{
   margin-bottom:30px;
-}
-@media(max-width:425px){
-  .footer{
-    margin-bottom: 0;
-  }
 }

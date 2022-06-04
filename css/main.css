@@ -177,6 +177,7 @@ a{
   display: block;
   line-height: 56px;
   padding: 0 16px;
+  cursor: pointer;
 }
 .nav-sublist{
   display: none;
@@ -250,7 +251,7 @@ a{
   left: 0;
   right: 0;
   margin: auto;
-  padding: 20px 6px;
+  padding: 20px 20px;
   text-align: center;
   color: #fff;
   background-color: rgba(0,0,0,0.35);
@@ -293,8 +294,12 @@ a{
   border-radius: 3px;
   font-size: 16px;
   line-height: 22px;
+  color: #3D1101;
   background: #FFFFFF;
   box-shadow: inset 0px 1px 0px 0px #ECECEC;
+}
+.form-input input{
+  outline-color: #3D1101;
 }
 .form-input i{
   position: absolute;
@@ -432,5 +437,8 @@ a{
   .footer-block{
     max-width: 100%;
     margin: 0 0 30px 0;
+  }
+  .footer-block-3{
+    margin-bottom: 0;
   }
 }
