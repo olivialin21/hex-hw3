@@ -168,6 +168,7 @@ p.experience-comment{
 .map-content label{
   margin-bottom: 6px;
   line-height: 20px;
+  font-size: 14px;
 }
 .map-content input{
   width: 100%;
@@ -177,17 +178,27 @@ p.experience-comment{
   border: 1px solid #CCCCCC;
   border-radius: 3px;
   font-size: 16px;
+  line-height: 22px;
   background: #FFFFFF;
   box-shadow: inset 0px 1px 0px 0px #ECECEC;
 }
 .map-content input[type="radio"]{
   width: 16px;
   height: 16px;
+  margin: 0 36px 0 6px;
   border: 1px solid #9B9B9B;
   box-shadow: none;
 }
 .map-content input[type="radio"]:focus{
   border: 1px solid #4A90E2;
+}
+.form div{
+  display: flex;
+  align-items: center;
+}
+.form div label{
+  margin: 0;
+  margin-bottom: 2px;
 }
 
 .map-btn{
@@ -197,5 +208,5 @@ p.experience-comment{
   width: 70px;
 }
 .map-btn .btn-gray{
-  margin-right: 6px;
+  margin-right: 11px;
 }
