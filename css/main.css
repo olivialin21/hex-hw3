@@ -211,11 +211,12 @@ a{
     overflow: hidden;
   }
   .nav-list a{
-    line-height: 40px;
+    padding: 0 10px;
+    line-height: 36px;
   }
   .nav-sublist{
     position: relative;
-    padding-left: 24px;
+    padding-left: 16px;
     text-align: left;
   }
   .nav-ham{

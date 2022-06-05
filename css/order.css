@@ -104,16 +104,19 @@
 }
 .order-cart a{
   line-height: 21px;
-  padding: 3px 12px;
   color: #3D1101;
   transition: all 0.3s;
 }
 .order-cart a:hover{
   color: #a0644e;
 }
+.order-check{
+  min-width: 48px;
+  margin: 3px 12px;
+}
 .order-cart .fa{
   position: relative;
-  padding: 3px 21px 3px 18px;
+  margin: 3px 21px 3px 18px;
   font-size: 29px;
 }
 .order-cart .fa::after{
@@ -121,8 +124,8 @@
   width: 16px;
   height: 16px;
   position: absolute;
-  top: -5px;
-  right: 12px;
+  top: -8px;
+  right: -8px;
   border: 1px solid #EFE9E7;
   border-radius: 50%;
   text-align: center;
@@ -149,7 +152,7 @@
     margin-bottom: 12px;
   }
   .order-cart .fa{
-    padding: 3px 12px;
+    margin: 3px 12px;
   }
 }
 
